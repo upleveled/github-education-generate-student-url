@@ -20,4 +20,4 @@ https://education.github.com/student/verify?school_id=YOUR_SCHOOL_ID&student_id=
 
 ## Screenshot
 
-<img src="https://raw.githubusercontent.com/upleveled/github-education-student-url-openssl/master/readme.md" alt="Screenshot showing usage of the tool" />
+<img src="https://raw.githubusercontent.com/upleveled/github-education-student-url-openssl/master/screenshot.png" alt="Screenshot showing usage of the tool" />
