@@ -11,5 +11,5 @@ if [ -z "$student_id" ]; then
 fi
 
 eval $(egrep -v '^#' .env)
-signature=$(echo -n ${school_id}${student_id} | openssl dgst -sha256 -hex -hmac ${secret_key})
+signature=$(printf ${school_id}${student_id} | openssl dgst -sha256 -hex -hmac ${secret_key})
 echo "https://education.github.com/student/verify?school_id=${school_id}&student_id=${student_id}&signature=${signature}"
