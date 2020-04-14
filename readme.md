@@ -2,11 +2,13 @@
 
 If your school is part of [GitHub Education](https://education.github.com/), you will need to generate URLs for them to access benefits.
 
-[@damaneice](https://github.com/damaneice) has provided [a Gist](https://gist.github.com/damaneice/a2aa8b19e698876ed37626a6b7b861ff) how to generate these URLs, but unfortunately, the code examples are only in Ruby, Java and Python.
+[@damaneice](https://github.com/damaneice) has provided [a Gist](https://gist.github.com/damaneice/a2aa8b19e698876ed37626a6b7b861ff) how to generate these URLs, but the scripts are scattered through the comments and in some cases don't work out of the box.
 
-In case you have `openssl` installed and would like to generate the URL from the command line, here's a shell script that will take a `student_id` as an argument.
+This repository provides scripts in three languages:
 
-Additionally, this repo provides JavaScript and Ruby versions.
+1. Shell: Requires `openssl`
+2. JavaScript
+3. Ruby
 
 ## Usage
 
