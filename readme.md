@@ -6,17 +6,31 @@ If your school is part of [GitHub Education](https://education.github.com/), you
 
 In case you have `openssl` installed and would like to generate the URL from the command line, here's a shell script that will take a `student_id` as an argument.
 
+Additionally, this repo provides JavaScript and Ruby versions.
+
 ## Usage
 
 1. Clone this repository
 2. Copy `.env.example` to a new file called `.env` and fill in the values
-3. Run `./generate.sh STUDENT_ID` with your student ID
+3. Follow the instructions for either the [shell script](#shell-script), the [JavaScript script](#javascript) or the [Ruby script](#ruby)
 
 You will receive a string in the following format:
 
 ```
 https://education.github.com/student/verify?school_id=YOUR_SCHOOL_ID&student_id=STUDENT_ID&signature=GENERATED_SIGNATURE
 ```
+
+### Shell Script
+
+Run `./generate.sh STUDENT_ID` with your student ID.
+
+### JavaScript
+
+Run `node index.js STUDENT_ID` with your student ID.
+
+### Ruby
+
+Run `ruby index.rb STUDENT_ID` with your student ID.
 
 ## Screenshot
 
